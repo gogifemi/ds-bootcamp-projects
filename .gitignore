@@ -138,4 +138,5 @@ models/*
 .mlflow_uri
 
 plant_disease_capstone/*
+EDA_projects/data/
 youtube_trending_EDA/data/
