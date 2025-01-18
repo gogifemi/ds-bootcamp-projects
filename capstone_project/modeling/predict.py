@@ -2,7 +2,7 @@ from fastai.vision.all import load_learner, PILImage
 from keras_preprocessing.image import load_img
 
 # Load the model
-model = load_learner("models/canhealth_model.pkl")
+model = load_learner("model/canhealth_model.pkl")
 
 # Load the image
 img = load_img("data/test/Septoria/00_septoria_yellowleaf_test.jpg")
