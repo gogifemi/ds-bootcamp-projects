@@ -102,20 +102,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
+capstone_project/.streamlit_venv
+capstone_project/.venv_cap
 
 # mkdocs documentation
 /site
@@ -128,17 +116,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-
-data/*.csv
-models/*.sav
-mlruns
-models/*
-
 #config file has sensitive data
 .mlflow_uri
 
-plant_disease_capstone/*
-EDA_projects/data_youtube/
-youtube_trending_EDA/data/
-capstone_project/*
+#data
+EDA_projects/data_youtube
 machine_learning_project/data_churn
+capstone_project/data
